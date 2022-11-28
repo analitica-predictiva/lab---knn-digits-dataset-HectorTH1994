@@ -2,7 +2,8 @@
 Clasificación usando k-NN - Digits Dataset
 -----------------------------------------------------------------------------------------
 
-En este laboratio se construirá un clasificador usando k-NN para el dataset de digitos.
+En este laboratio se construirá un clasificador usando k-NN 
+para el dataset de digitos.
 
 """
 import matplotlib.pyplot as plt
@@ -17,17 +18,17 @@ def pregunta_01():
     """
 
     # Cargue el dataset digits
-    digits = ____.____()
+    digits = datasets.load_digits(return_X_y=False)
 
     # Imprima los nombres de la variable target del dataset
-    print(____.____)
+    print(digits.target_names)
 
     # Imprima las dimensinoes de matriz de datos
-    print(____.____.____)
+    print(digits.data.shape)
 
     # Imprima las dimensiones del vector de salida
-    print(____.____.____)
-
+    print(digits.target.shape)
+pregunta_01()
 
 def pregunta_02():
     """
