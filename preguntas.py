@@ -30,7 +30,6 @@ def pregunta_01():
     print(digits.target.shape)
 
 
-pregunta_01()
 
 def pregunta_02():
     """
